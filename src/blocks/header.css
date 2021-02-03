@@ -1,0 +1,18 @@
+
+.header{
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   align-items: center;
+    width: 100vw;
+       display: flex;
+       min-height: 5vh;
+       flex-direction: column;
+       background: var(--color-primary);
+       opacity: 0.7;
+       color:rgb(255, 156, 64);
+       position: absolute;
+       top: 0;
+       left: 0;
+   
+   }

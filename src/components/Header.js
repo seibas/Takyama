@@ -1,10 +1,10 @@
 import React from 'react'
+import "../blocks/header.css"
 
 const Header = () => {
     return (
-        <div>
-            <h1>This is The Header Page With the NavNav and Logo.</h1>
-        </div>
+        <div className={ 'header' }>Header</div>
+        
     )
 }
 

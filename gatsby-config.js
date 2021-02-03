@@ -5,9 +5,17 @@
  */
 
 module.exports = {
+  
   /* Your site config here */
   plugins: [ 
 
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `events`,
+        path: `${__dirname}/content/events/`,  
+          },
+    },
     {
       resolve: `gatsby-plugin-mdx`,
       options: {
@@ -17,9 +25,6 @@ module.exports = {
 
         },
       },
-    },
-  
-
-    
-  ]
+    }, 
+    `gatsby-plugin-styled-components`],
 }
